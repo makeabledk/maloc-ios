@@ -1,0 +1,11 @@
+framework module MALocalization {
+  umbrella header "malocalization.h"
+  export *
+
+  module * { export * }
+}
+
+module MALocalization.Swift {
+  header "MALocalization-Swift.h"
+  requires objc
+}

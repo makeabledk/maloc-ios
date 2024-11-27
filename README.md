@@ -1,1 +1,3 @@
-# maloc-ios
+# MALocalization iOS
+- Supports iOS 15+
+

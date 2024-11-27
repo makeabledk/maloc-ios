@@ -1,0 +1,1201 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MALocalizationUpdate",
+        "printedName": "MALocalizationUpdate",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MALocalization0A6UpdateV7successSbvp",
+            "mangledName": "$s14MALocalization0A6UpdateV7successSbvp",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalization0A6UpdateV7successSbvg",
+                "mangledName": "$s14MALocalization0A6UpdateV7successSbvg",
+                "moduleName": "MALocalization",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalization0A6UpdateV7successSbvs",
+                "mangledName": "$s14MALocalization0A6UpdateV7successSbvs",
+                "moduleName": "MALocalization",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalization0A6UpdateV7successSbvM",
+                "mangledName": "$s14MALocalization0A6UpdateV7successSbvM",
+                "moduleName": "MALocalization",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "didFetchNewLocalizations",
+            "printedName": "didFetchNewLocalizations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvp",
+            "mangledName": "$s14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvp",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvg",
+                "mangledName": "$s14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvg",
+                "moduleName": "MALocalization",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvs",
+                "mangledName": "$s14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvs",
+                "moduleName": "MALocalization",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvM",
+                "mangledName": "$s14MALocalization0A6UpdateV24didFetchNewLocalizationsSbvM",
+                "moduleName": "MALocalization",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14MALocalization0A6UpdateV",
+        "mangledName": "$s14MALocalization0A6UpdateV",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SystemConfiguration",
+        "printedName": "SystemConfiguration",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MALocalizationSettings",
+        "printedName": "MALocalizationSettings",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Builder",
+            "printedName": "Builder",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Builder",
+                    "printedName": "MALocalization.MALocalizationSettings.Builder",
+                    "usr": "s:14MALocalization0A8SettingsV7BuilderC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:14MALocalization0A8SettingsV7BuilderCAEycfc",
+                "mangledName": "$s14MALocalization0A8SettingsV7BuilderCAEycfc",
+                "moduleName": "MALocalization",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "environment",
+                "printedName": "environment(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MALocalizationEnvironment",
+                    "printedName": "MALocalization.MALocalizationEnvironment",
+                    "usr": "s:14MALocalization0A11EnvironmentO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14MALocalization0A8SettingsV7BuilderC11environmentyAEXDAA0A11EnvironmentOF",
+                "mangledName": "$s14MALocalization0A8SettingsV7BuilderC11environmentyAEXDAA0A11EnvironmentOF",
+                "moduleName": "MALocalization",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "verboseMode",
+                "printedName": "verboseMode(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14MALocalization0A8SettingsV7BuilderC11verboseModeyAEXDSbF",
+                "mangledName": "$s14MALocalization0A8SettingsV7BuilderC11verboseModeyAEXDSbF",
+                "moduleName": "MALocalization",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "persistCustomLanguage",
+                "printedName": "persistCustomLanguage(_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14MALocalization0A8SettingsV7BuilderC21persistCustomLanguageyAEXDSbF",
+                "mangledName": "$s14MALocalization0A8SettingsV7BuilderC21persistCustomLanguageyAEXDSbF",
+                "moduleName": "MALocalization",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "build",
+                "printedName": "build()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MALocalizationSettings",
+                    "printedName": "MALocalization.MALocalizationSettings",
+                    "usr": "s:14MALocalization0A8SettingsV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:14MALocalization0A8SettingsV7BuilderC5buildACyF",
+                "mangledName": "$s14MALocalization0A8SettingsV7BuilderC5buildACyF",
+                "moduleName": "MALocalization",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:14MALocalization0A8SettingsV7BuilderC",
+            "mangledName": "$s14MALocalization0A8SettingsV7BuilderC",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14MALocalization0A8SettingsV",
+        "mangledName": "$s14MALocalization0A8SettingsV",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MALocalizationEnvironment",
+        "printedName": "MALocalizationEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "Staging",
+            "printedName": "Staging",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MALocalization.MALocalizationEnvironment.Type) -> MALocalization.MALocalizationEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MALocalizationEnvironment",
+                    "printedName": "MALocalization.MALocalizationEnvironment",
+                    "usr": "s:14MALocalization0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MALocalization.MALocalizationEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MALocalizationEnvironment",
+                        "printedName": "MALocalization.MALocalizationEnvironment",
+                        "usr": "s:14MALocalization0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MALocalization0A11EnvironmentO7StagingyA2CmF",
+            "mangledName": "$s14MALocalization0A11EnvironmentO7StagingyA2CmF",
+            "moduleName": "MALocalization"
+          },
+          {
+            "kind": "Var",
+            "name": "Production",
+            "printedName": "Production",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MALocalization.MALocalizationEnvironment.Type) -> MALocalization.MALocalizationEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MALocalizationEnvironment",
+                    "printedName": "MALocalization.MALocalizationEnvironment",
+                    "usr": "s:14MALocalization0A11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MALocalization.MALocalizationEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MALocalizationEnvironment",
+                        "printedName": "MALocalization.MALocalizationEnvironment",
+                        "usr": "s:14MALocalization0A11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14MALocalization0A11EnvironmentO10ProductionyA2CmF",
+            "mangledName": "$s14MALocalization0A11EnvironmentO10ProductionyA2CmF",
+            "moduleName": "MALocalization"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MALocalization.MALocalizationEnvironment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MALocalizationEnvironment",
+                    "printedName": "MALocalization.MALocalizationEnvironment",
+                    "usr": "s:14MALocalization0A11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14MALocalization0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14MALocalization0A11EnvironmentO8rawValueACSgSS_tcfc",
+            "moduleName": "MALocalization",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MALocalization0A11EnvironmentO8rawValueSSvp",
+            "mangledName": "$s14MALocalization0A11EnvironmentO8rawValueSSvp",
+            "moduleName": "MALocalization",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalization0A11EnvironmentO8rawValueSSvg",
+                "mangledName": "$s14MALocalization0A11EnvironmentO8rawValueSSvg",
+                "moduleName": "MALocalization",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14MALocalization0A11EnvironmentO",
+        "mangledName": "$s14MALocalization0A11EnvironmentO",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "MALocalization"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MALocalization",
+        "printedName": "MALocalization",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MALocalization",
+                "printedName": "MALocalization.MALocalization",
+                "usr": "s:14MALocalizationAAC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MALocalizationAAC6sharedABvpZ",
+            "mangledName": "$s14MALocalizationAAC6sharedABvpZ",
+            "moduleName": "MALocalization",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MALocalization",
+                    "printedName": "MALocalization.MALocalization",
+                    "usr": "s:14MALocalizationAAC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalizationAAC6sharedABvgZ",
+                "mangledName": "$s14MALocalizationAAC6sharedABvgZ",
+                "moduleName": "MALocalization",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentLanguageCode",
+            "printedName": "currentLanguageCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14MALocalizationAAC19currentLanguageCodeSSvp",
+            "mangledName": "$s14MALocalizationAAC19currentLanguageCodeSSvp",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14MALocalizationAAC19currentLanguageCodeSSvg",
+                "mangledName": "$s14MALocalizationAAC19currentLanguageCodeSSvg",
+                "moduleName": "MALocalization",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(projectId:bundleKey:settings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MALocalizationSettings",
+                "printedName": "MALocalization.MALocalizationSettings",
+                "hasDefaultArg": true,
+                "usr": "s:14MALocalization0A8SettingsV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MALocalizationAAC10initialize9projectId9bundleKey8settingsySS_SSAA0A8SettingsVtF",
+            "mangledName": "$s14MALocalizationAAC10initialize9projectId9bundleKey8settingsySS_SSAA0A8SettingsVtF",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "swizzleMainBundle",
+            "printedName": "swizzleMainBundle()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MALocalizationAAC17swizzleMainBundleyyF",
+            "mangledName": "$s14MALocalizationAAC17swizzleMainBundleyyF",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkForUpdates",
+            "printedName": "checkForUpdates()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MALocalizationAAC15checkForUpdatesyyF",
+            "mangledName": "$s14MALocalizationAAC15checkForUpdatesyyF",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getString",
+            "printedName": "getString(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MALocalizationAAC9getString3forS2S_tF",
+            "mangledName": "$s14MALocalizationAAC9getString3forS2S_tF",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "changeLanguage",
+            "printedName": "changeLanguage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MALocalizationAAC14changeLanguageySbSSF",
+            "mangledName": "$s14MALocalizationAAC14changeLanguageySbSSF",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "availableLanguageCodes",
+            "printedName": "availableLanguageCodes()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14MALocalizationAAC22availableLanguageCodesSaySSGyF",
+            "mangledName": "$s14MALocalizationAAC22availableLanguageCodesSaySSGyF",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14MALocalizationAAC",
+        "mangledName": "$s14MALocalizationAAC",
+        "moduleName": "MALocalization",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Name",
+        "printedName": "Name",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "MALocalization",
+            "printedName": "MALocalization",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "LocalizationsUpdated",
+                "printedName": "LocalizationsUpdated",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:So18NSNotificationNamea14MALocalizationEACV20LocalizationsUpdatedABvpZ",
+                "mangledName": "$sSo18NSNotificationNamea14MALocalizationEACV20LocalizationsUpdatedABvpZ",
+                "moduleName": "MALocalization",
+                "static": true,
+                "declAttributes": [
+                  "HasInitialValue",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Name",
+                        "printedName": "Foundation.NSNotification.Name",
+                        "usr": "c:@T@NSNotificationName"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:So18NSNotificationNamea14MALocalizationEACV20LocalizationsUpdatedABvgZ",
+                    "mangledName": "$sSo18NSNotificationNamea14MALocalizationEACV20LocalizationsUpdatedABvgZ",
+                    "moduleName": "MALocalization",
+                    "static": true,
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:So18NSNotificationNamea14MALocalizationEACV",
+            "mangledName": "$sSo18NSNotificationNamea14MALocalizationEACV",
+            "moduleName": "MALocalization",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "c:@T@NSNotificationName",
+        "moduleName": "Foundation",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "SynthesizedProtocol",
+          "Sendable"
+        ],
+        "isFromExtension": true,
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSString",
+                    "printedName": "Foundation.NSString",
+                    "usr": "c:objc(cs)NSString"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_SwiftNewtypeWrapper",
+            "printedName": "_SwiftNewtypeWrapper",
+            "usr": "s:s20_SwiftNewtypeWrapperP",
+            "mangledName": "$ss20_SwiftNewtypeWrapperP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 47,
+      "value": "\"https:\/\/malocalization-prod.nw.r.appspot.com\/\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Models\/MALocalizationSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Models\/MALocalizationSettings.swift",
+      "kind": "BooleanLiteral",
+      "offset": 731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 39,
+      "value": "\"USERDEFAULTS_KEY_CUSTOM_LANGUAGE_CODE\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 44,
+      "value": "\"USERDEFAULTS_KEY_LATEST_BUNDLE_UUID_STRING\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 32,
+      "value": "\"USERDEFAULTS_KEY_LOCALIZATIONS\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 39,
+      "value": "\"USERDEFAULTS_KEY_CUSTOM_LANGUAGE_CODE\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 488,
+      "length": 44,
+      "value": "\"USERDEFAULTS_KEY_LATEST_BUNDLE_UUID_STRING\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/StorageService.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 32,
+      "value": "\"USERDEFAULTS_KEY_LOCALIZATIONS\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Config\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 37,
+      "value": "\"MALocalization_LocalizationsUpdated\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/MALocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 480,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/MALocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 50,
+      "value": "\"Current languageCode: \""
+    },
+    {
+      "filePath": "\/Users\/martinlindhofsimonsen\/Udvikling\/Makeable\/SDKs\/MALocalization\/malocalization-sdk-ios\/MALocalization\/Source\/Services\/MALocalization.swift",
+      "kind": "StringLiteral",
+      "offset": 1108,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
